@@ -25,7 +25,25 @@ Note: All the specs mentioned below can be configured in `utils/config.py`.
 ├───ppdata
 └───utils
 
-> Keep your dataset in `./dataset` and run `python train_and_save.py` also there is no need to make `./ppdata` and `./langmodel_got` as they will be created automatically. To see training logs open `./tensorflow.log`. And to see the results on tensorboard run command `tensorboard --logdir=./langmodel_got`
+> There is no need to make `./ppdata` and `./langmodel_got` as they will be created automatically.
+
+## Usage
+* Execute command `pip install -r requirements.txt`
+* Update [utils/config.py](./utils/config.py) to match your specs
+* Run `python train_and_save.py`
+* And to see the training logs open `./tensorflow.log` or use tensorboard - run command `tensorboard --logdir=./langmodel_got`
+* See results by running `python produce_text.py`
+
+`produce_text.py` takes command line args. To see them run `python produce_text.py -h` which would result in:
+
+```
+usage: produce_text.py [-h] [--in_txt IN_TXT] [--seq_len SEQ_LEN]
+
+optional arguments:
+  -h, --help         show this help message and exit
+  --in_txt IN_TXT    Starting Text Default - "The moon would be black tonight"
+  --seq_len SEQ_LEN  Number of words in the output sequence, Default - 100
+```
 
 ## Results
 Running `python produce_text.py` produces result:
