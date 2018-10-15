@@ -18,12 +18,14 @@ Note: All the specs mentioned below can be configured in `utils/config.py`.
 |Learning rate|1e-1|Made many fine tunings and many runs to finally decide that I'll go with this|
 
 ## Directory Structure
+```
 ├───dataset<br/>
 ├───langmodel_got<br/>
 ├───model<br/>
-│&nbsp;&nbsp;&nbsp;&nbsp;├───pipeline<br/>
+│    ├───pipeline<br/>
 ├───ppdata<br/>
 └───utils<br/>
+```
 
 > There is no need to make `./ppdata` and `./langmodel_got` as they will be created automatically.
 
