@@ -21,7 +21,7 @@ Note: All the specs mentioned below can be configured in `utils/config.py`.
 ├───dataset<br/>
 ├───langmodel_got<br/>
 ├───model<br/>
-│&nbsp;&nbsp;&nbsp;&nbsp├───pipeline<br/>
+│&nbsp;&nbsp;&nbsp;&nbsp;├───pipeline<br/>
 ├───ppdata<br/>
 └───utils<br/>
 
