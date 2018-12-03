@@ -19,12 +19,12 @@ Note: All the specs mentioned below can be configured in `utils/config.py`.
 
 ## Directory Structure
 ```
-├───dataset<br/>
-├───langmodel_got<br/>
-├───model<br/>
-│    ├───pipeline<br/>
-├───ppdata<br/>
-└───utils<br/>
+├───dataset
+├───langmodel_got
+├───model
+│    ├───pipeline
+├───ppdata
+└───utils
 ```
 
 > There is no need to make `./ppdata` and `./langmodel_got` as they will be created automatically.
